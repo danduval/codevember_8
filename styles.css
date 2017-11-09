@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin: auto;   
+}
+div::before {
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transform: translateX(50px) translateY(50px);
+    color: red;
+    position: relative;
+    display: block;
+}
